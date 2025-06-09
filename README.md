@@ -59,7 +59,8 @@ emotion-recognition-project/
 
 ## 📈 Evaluation result: EfficientNet-B0 on RAF-DB
 
-![image.png](attachment:2fbb6505-e159-4078-87cf-e6cd0d783cbc:image.png)
+![image](https://github.com/user-attachments/assets/07557bfc-faab-4d0a-b3d6-0b59e1a00e9a)
+
 
 ```
 Accuracy: 0.8044
@@ -148,7 +149,8 @@ weighted avg       0.80      0.80      0.80      3068
 |  happy 0.61 0.90 132 0.46 |  1.00 |  0.30 |  0.46 |  132 |
 |  surprise (i.e., not a surprise) |  0.42 |  0.83 |  0.56 |  52 |
 
-![image.png](attachment:d55bf770-0d7c-4046-979a-adff663a356b:image.png)
+![image](https://github.com/user-attachments/assets/18ff9b7c-2d44-4c8a-99c0-993cf745ee05)
+
 
  📌 Preliminary observations show that the model is good at recognizing happy, but there is a clear confusion between sad/surprise (the confusion matrix shows that sad is often predicted to be surprise), which may be due to blurred expressions or the quality of filming.
 
@@ -200,7 +202,8 @@ weighted avg      0.77      0.77      0.77       236
 
 ### 📊 Confusion Matrix (Confusion Matrix)
 
-![image.png](attachment:da9bfe59-9220-4821-b749-273447d8ae4b:image.png)
+![image](https://github.com/user-attachments/assets/d6ae6abe-cc03-48e2-8e76-039649e15658)
+
 
 - Classification performance was generally stable, with the best prediction for the boredom category.
 - There is still some confusion between engagement and confusion, indicating that there is still room for optimization of the model to distinguish between these two types of emotions.
